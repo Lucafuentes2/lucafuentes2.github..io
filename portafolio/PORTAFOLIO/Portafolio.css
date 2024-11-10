@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Fuente general */
+    background-color: #f0f0f0; /* Color de fondo suave */
+    color: #333; /* Color de texto general */
+}
+header {
+    background-image: url(fondo1.avif); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Altura del banner */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra del texto */
+    position: relative;
+}
+nav {
+    position: absolute; /* Posiciona el nav de forma absoluta */
+    top: 20px; /* Margen superior */
+    left: 20px; /* Margen izquierdo */
+}
+nav a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    margin: 0 15px; /* Margen de 15px a la izquierda y derecha */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Color amarillo al pasar el mouse */
+}
+section {
+    padding: 50px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco para secciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto; /* Margen superior e inferior */
+    max-width: 800px; /* Ancho máximo */
+}
+.cookies {
+    position: fixed; /* Fija el elemento en la ventana */
+    bottom: 0; /* Coloca el banner en la parte inferior */
+    left: 0; /* Extiende el banner hasta el lado izquierdo */
+    right: 0; /* Extiende el banner hasta el lado derecho */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+    color: white; /* Color del texto a blanco */
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+}
+.about {
+    border: 2px solid #0056b3; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: rgb(179, 206, 231); /* Fondo azul claro */
+    padding: 20px; /* Espaciado interno */
+}
+.iconos {
+    display: flex; /* Usa flexbox para alinear iconos */
+    justify-content: center; /* Centra los iconos */
+    margin-top: 15px; /* Margen superior */
+}
+
+.iconos img {
+    width: 30px; /* Ancho de los iconos */
+    margin: 0 10px; /* Espaciado entre iconos */
+}
+
+.iconos a {
+    color: white; /* Color del texto a blanco */
+    font-size: 17px; /* Tamaño de fuente */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+.iconos a:hover {
+    color: #ffcc00; /* Cambia a color amarillo al pasar el mouse */
+}
+.tablas {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Margen superior */
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+.skills {
+text-align: right;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.contact {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+.contact h2, .contact h3 {
+    text-align: center; /* Centrar texto */
+    color: #333; /* Color del texto */
+}
+label {
+    display: block; /* Hacer que las etiquetas ocupen toda la línea */
+    margin: 10px 0 5px; /* Espaciado */
+    font-weight: bold; /* Negrita */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+button {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 100%; /* Ancho completo */
+}
+button:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+.mail-button a {
+    text-decoration: none; /* Sin subrayado */
+    color: #4CAF50; /* Color del texto */
+    font-weight: bold; /* Negrita */
+}
+footer {
+    text-align: center; /* Centrar el texto */
+    padding: 20px; /* Espaciado interno */
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    position: relative; /* Posición relativa */
+    bottom: 0; /* Alinear al fondo */
+    width: 100%; /* Ancho completo */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+    font-size: 14px; /* Tamaño de fuente */
+}
